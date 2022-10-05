@@ -1,5 +1,7 @@
 //Current Day
 // moment().format("dddd, MMMM, Do YYYY");
-var now = moment().format("dddd, MMMM, Do YYYY");
-console.log(now);
+var today = moment();
+console.log("today", today);
+
+today.format("MMM Do, YYYY")
 
