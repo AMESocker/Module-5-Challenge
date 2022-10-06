@@ -20,14 +20,14 @@ SO THAT I can manage my time effectively
 
 ## Acceptance Criteria 
 GIVEN I am using a daily planner to create a schedule
-    7% Each -28%
+    7% Each -21%
     Complete: 
     WHEN I open the planner
     THEN the current day is displayed at the top of the calendar
     Complete:
     WHEN I scroll down
     THEN I am presented with time blocks for standard business hours
-    TODO:
+    Complete:
     WHEN I view the time blocks for that day
     THEN each time block is color-coded to indicate whether it is in the past, present, or future
     TODO:
