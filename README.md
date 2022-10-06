@@ -20,8 +20,8 @@ SO THAT I can manage my time effectively
 
 ## Acceptance Criteria 
 GIVEN I am using a daily planner to create a schedule
-    7% Each
-    TODO: 
+    7% Each -28%
+    Complete: 
     WHEN I open the planner
     THEN the current day is displayed at the top of the calendar
     Complete:
