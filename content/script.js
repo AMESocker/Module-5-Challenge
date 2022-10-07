@@ -86,6 +86,9 @@
     eventColor();
 //----
 
+//----Get Item----
+localStorage.getItem("9am");
+
 //----Enter Event Info----
 function addToLocalStorage9 (){
     localStorage.setItem("9am", $("#9E").val());
@@ -120,6 +123,7 @@ function addToLocalStorage18 (){
 var eventInfo = $("#9E").text();
 console.log(eventInfo)
 
+
 //----Event Listeners----
 
 document.getElementById("9B").addEventListener("click", addToLocalStorage9);
@@ -133,8 +137,6 @@ document.getElementById("16B").addEventListener("click", addToLocalStorage16);
 document.getElementById("17B").addEventListener("click", addToLocalStorage17);
 document.getElementById("18B").addEventListener("click", addToLocalStorage18);
 
-//----Get From Local Storage----
-//----Set Local Storage----
 // function InputEvent() 
 // var eventInfo = "Make like a tree and get outta here.";
 
