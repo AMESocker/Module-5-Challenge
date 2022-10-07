@@ -6,9 +6,9 @@
     $("#currentDay").text(today.format("MMM Do, YYYY"));
 
 //----Column Color----
-    // var currentHour = moment().hour();
+    var currentHour = moment().hour();
 
-    var currentHour = 18
+    // var currentHour = 18
     console.log(currentHour)
 
     function eventColor() {
@@ -87,3 +87,27 @@
 //----
 
 //----Enter Event Info----
+
+
+//----Event Listeners----
+function test (){
+    console.log("1.21 Gigawatts")
+};
+document.getElementById("9B").addEventListener("click", test);
+document.getElementById("10B").addEventListener("click", test);
+document.getElementById("11B").addEventListener("click", test);
+document.getElementById("12B").addEventListener("click", test);
+document.getElementById("13B").addEventListener("click", test);
+document.getElementById("14B").addEventListener("click", test);
+document.getElementById("15B").addEventListener("click", test);
+document.getElementById("16B").addEventListener("click", test);
+document.getElementById("17B").addEventListener("click", test);
+document.getElementById("18B").addEventListener("click", test);
+
+
+
+// console.log(saveData);
+
+// addEventListener("click", $("button"));
+// console.log(addEventListener)
+// 

@@ -20,7 +20,7 @@ SO THAT I can manage my time effectively
 
 ## Acceptance Criteria 
 GIVEN I am using a daily planner to create a schedule
-    7% Each -21%
+    7% Each -14%
     Complete: 
     WHEN I open the planner
     THEN the current day is displayed at the top of the calendar
@@ -30,7 +30,7 @@ GIVEN I am using a daily planner to create a schedule
     Complete:
     WHEN I view the time blocks for that day
     THEN each time block is color-coded to indicate whether it is in the past, present, or future
-    TODO:
+    Complete:
     WHEN I click into a time block
     THEN I can enter an event
     TODO:
