@@ -39,3 +39,5 @@ GIVEN I am using a daily planner to create a schedule
     TODO:
     WHEN I refresh the page
     THEN the saved events persist
+
+    ![content](./content/Work-Day-Page.jpg)

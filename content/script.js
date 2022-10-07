@@ -8,7 +8,7 @@
 //----Column Color----
     var currentHour = moment().hour();
 
-    // var currentHour = 18
+    // var currentHour = 11
     console.log(currentHour)
 
     function eventColor() {
@@ -82,7 +82,7 @@
     //18 Hour (6pm)
     var columnHour = $("#18").val();
     var eventColumn = $("#18E");
-    var rowHour = 18
+    var rowHour = 18;
     eventColor();
 //----
 
@@ -91,7 +91,8 @@
 
 //----Event Listeners----
 function test (){
-    console.log("1.21 Gigawatts")
+    console.log("1.21 Gigawatts");
+    localStorage.setItem("9am", eventInfo);
 };
 document.getElementById("9B").addEventListener("click", test);
 document.getElementById("10B").addEventListener("click", test);
@@ -104,7 +105,15 @@ document.getElementById("16B").addEventListener("click", test);
 document.getElementById("17B").addEventListener("click", test);
 document.getElementById("18B").addEventListener("click", test);
 
+//----Set Local Storage----
+// function InputEvent() 
+// var eventInfo = "Make like a tree and get outta here.";
+var eventInfo = $("#9E").text();
+console.log(eventInfo)
 
+
+
+// localStorage.setItem("9am", eventInfo);
 
 // console.log(saveData);
 
