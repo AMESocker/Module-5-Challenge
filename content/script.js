@@ -87,29 +87,57 @@
 //----
 
 //----Enter Event Info----
-
+function addToLocalStorage9 (){
+    localStorage.setItem("9am", $("#9E").val());
+};
+function addToLocalStorage10 (){
+    localStorage.setItem("10am", $("#10E").val());
+};
+function addToLocalStorage11 (){
+    localStorage.setItem("11am", $("#11E").val());
+};
+function addToLocalStorage12 (){
+    localStorage.setItem("12am", $("#12E").val());
+};
+function addToLocalStorage13 (){
+    localStorage.setItem("13am", $("#13E").val());
+};
+function addToLocalStorage14 (){
+    localStorage.setItem("14am", $("#14E").val());
+};
+function addToLocalStorage15 (){
+    localStorage.setItem("15am", $("#15E").val());
+};
+function addToLocalStorage16 (){
+    localStorage.setItem("16am", $("#16E").val());
+};
+function addToLocalStorage17 (){
+    localStorage.setItem("17am", $("#17E").val());
+};
+function addToLocalStorage18 (){
+    localStorage.setItem("18am", $("#18E").val());
+};
+var eventInfo = $("#9E").text();
+console.log(eventInfo)
 
 //----Event Listeners----
-function test (){
-    console.log("1.21 Gigawatts");
-    localStorage.setItem("9am", eventInfo);
-};
-document.getElementById("9B").addEventListener("click", test);
-document.getElementById("10B").addEventListener("click", test);
-document.getElementById("11B").addEventListener("click", test);
-document.getElementById("12B").addEventListener("click", test);
-document.getElementById("13B").addEventListener("click", test);
-document.getElementById("14B").addEventListener("click", test);
-document.getElementById("15B").addEventListener("click", test);
-document.getElementById("16B").addEventListener("click", test);
-document.getElementById("17B").addEventListener("click", test);
-document.getElementById("18B").addEventListener("click", test);
 
+document.getElementById("9B").addEventListener("click", addToLocalStorage9);
+document.getElementById("10B").addEventListener("click", addToLocalStorage10);
+document.getElementById("11B").addEventListener("click", addToLocalStorage11);
+document.getElementById("12B").addEventListener("click", addToLocalStorage12);
+document.getElementById("13B").addEventListener("click", addToLocalStorage13);
+document.getElementById("14B").addEventListener("click", addToLocalStorage14);
+document.getElementById("15B").addEventListener("click", addToLocalStorage15);
+document.getElementById("16B").addEventListener("click", addToLocalStorage16);
+document.getElementById("17B").addEventListener("click", addToLocalStorage17);
+document.getElementById("18B").addEventListener("click", addToLocalStorage18);
+
+//----Get From Local Storage----
 //----Set Local Storage----
 // function InputEvent() 
 // var eventInfo = "Make like a tree and get outta here.";
-var eventInfo = $("#9E").text();
-console.log(eventInfo)
+
 
 
 
