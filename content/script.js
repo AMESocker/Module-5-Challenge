@@ -8,7 +8,7 @@
 //----Column Color----
     var currentHour = moment().hour();
 
-    // var currentHour = 11
+    // var currentHour = 10
     console.log(currentHour)
 
     function eventColor() {
@@ -34,7 +34,16 @@
     //I believe there is a better way to write this next section, however it works. Somehow put a for loop to assign values as above.
 
 //----Each Hour----
+    for (let i = 9; i < 19; i++) {
+        var string = i.toString();
+        // console.log('#'+string)
+        var columnHour = $('#'+string).val();
+        var eventColumn = $('#'+string+'E');
+        var rowHour = i
+        eventColor();
+    }
     //9 Hour
+    /*
     var columnHour = $("#9").val();
     var eventColumn = $("#9E");
     var rowHour = 9
@@ -84,12 +93,23 @@
     var eventColumn = $("#18E");
     var rowHour = 18;
     eventColor();
+    */
 //----
 
 //----Get Item----
-localStorage.getItem("9am");
-
+for (let i = 9; i < 19; i++) {
+    var string = i.toString();
+var getEle = document.getElementById(string+'E');
+var savedData = localStorage.getItem(string+"am");
+getEle.value = savedData
+}
 //----Enter Event Info----
+// for (let i = 9; i < 19; i++) {
+//     var string = i.toString();
+//     function addToLocalStorage (){
+//         localStorage.setItem(string, $("#"+string+"E").val());
+//     };
+// }
 function addToLocalStorage9 (){
     localStorage.setItem("9am", $("#9E").val());
 };
